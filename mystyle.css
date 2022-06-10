@@ -1,0 +1,118 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.neonText {                                         /*start my shine staff*/
+    animation: flicker 1.5s infinite alternate;
+    color: rgb(198, 61, 93);
+  }
+  /* Flickering animation */
+  @keyframes flicker {  
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  /* Additional styling */
+  h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #010a01;
+  }  
+                                      /*end my shine staff*/
+
+
+h1{
+    color:black;
+    text-shadow: 5px 5px 10px palevioletred;
+    
+    text-align: center;
+    font-size: 100px;
+}
+h1,h2,h3{
+   text-align:center;
+   margin-bottom:30px;
+}
+h2,h3{
+    margin-top:20px;
+}
+p{
+    text-align:center;
+}
+
+
+header{
+    background-image:url(cvetok.jpeg);
+    background-position: center;
+    background-size:  cover;
+    border: 5px solid violet;
+    height:300px;
+    text-align:center;
+}
+/*nav*/
+nav.menu a{
+    color:blue;
+    font-weight: 700;
+    margin-right: 30px;
+}
+/*global*/
+*{
+    margin: 0;
+}
+
+/*main*/
+
+/*footer*/
+
+footer{
+    background-color: black;
+    color: rgb(12, 12, 11);
+    text-align: center;
+    padding: 20px;
+}
+nav.social-nerworks a{
+    color:aqua;
+    font-size: 14px;
+    margin-right: 20px;
+}
+/*services*/
+div.services-container{
+
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+div.services{
+    background-image:url(cvetok.jpeg);
+    /*"background-color: black;*/
+    width: 500px;
+    margin: 20px auto;/*tb lr*/
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(10, 69, 49);
+}
+div.services ol li,div.services ul li{
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+div.services ol li:hover{
+    color: brown;
+}
